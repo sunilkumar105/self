@@ -1,5 +1,5 @@
 ---
-name: frontend-tweak
+name: frontend-pre-work
 description: Run BEFORE doing any frontend changes. Analyzes the request, discovers the codebase, classifies the change, and produces a structured change plan.
 ---
 

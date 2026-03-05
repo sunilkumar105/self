@@ -5,7 +5,7 @@ description: Main execution skill for all frontend changes. Handles code editing
 
 ## When to Use
 
-Use this skill whenever you are ready to **execute** frontend code changes after the `frontend-tweak` skill has analyzed and planned the work. This skill covers:
+Use this skill whenever you are ready to **execute** frontend code changes after the `frontend-pre-work` skill has analyzed and planned the work. This skill covers:
 - Tweaking frontend / updating UI / modifying styling
 - Adjusting layout or spacing
 - Changing colors, fonts, or typography
@@ -22,13 +22,13 @@ Use this skill whenever you are ready to **execute** frontend code changes after
 ### Step 1: Confirm Prerequisites
 
 Before writing any code, verify:
-- [ ] You have already run the `frontend-tweak` skill (or have equivalent understanding)
+- [ ] You have already run the `frontend-pre-work` skill (or have equivalent understanding)
 - [ ] You know the **framework** (React / Vue / Angular / Svelte / Vanilla)
 - [ ] You know the **CSS approach** (Modules / Tailwind / styled-components / Vanilla / SCSS)
 - [ ] You know the **target files** to modify
 - [ ] You know the **impact radius** (other files that could be affected)
 
-If any of these are unclear, go back to `frontend-tweak` before proceeding.
+If any of these are unclear, go back to `frontend-pre-work` before proceeding.
 
 ### Step 2: Read Before Writing
 
@@ -44,7 +44,7 @@ Always read the full context before making any edit:
 
 ### Step 3: Choose the Right Editing Strategy
 
-Pick the strategy based on the change type identified in `frontend-tweak`:
+Pick the strategy based on the change type identified in `frontend-pre-work`:
 
 #### 🟢 Visual-Only Changes (colors, shadows, borders, opacity)
 

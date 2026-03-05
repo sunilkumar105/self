@@ -17,7 +17,7 @@ Use this skill **after** the `frontend-work` skill has finished making all code 
 
 ### Step 1: Verify All Planned Changes Were Made
 
-Go through the change plan from `frontend-tweak` and confirm:
+Go through the change plan from `frontend-pre-work` and confirm:
 - [ ] Every file in the "files to modify" list was actually modified
 - [ ] Every change described in the plan was implemented
 - [ ] No files were accidentally skipped
